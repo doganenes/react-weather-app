@@ -14,6 +14,7 @@
 *.txt
 *.json
 *.lock
+*.env
 
 # misc
 .DS_Store
@@ -36,3 +37,4 @@ yarn-debug.log*
 yarn-error.log*
 /.changelog
 .npm/
+* .txt

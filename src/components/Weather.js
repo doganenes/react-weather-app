@@ -1,20 +1,15 @@
-const Weather = (props) =>{
+import React, { useState, useEffect, useRef } from "react";
+import axios from "axios";
 
-    const {weather} = props;
+function WeatherApp() {
+  const [city, setCity] = useState("");
+  const [weatherData, setWeatherData] = useState({});
+  const [backgroundImage, setBackgroundImage] = useState("");
 
-    if(!weather){
-        return <p>Loading...</p>
-    }
+  const apiKey = process.env.REACT_APP_WEATHER_DATA;
+  const pexelsApiUrl = process.env.PEXELS_PHOTO_DATA;
 
-    return( 
-        <div>
-        <h3>{weather.name}</h3>
-        <h4>{weather.weather.map(data => data.description).join(",")}</h4>
-        <p>{weather.main.temp} °C</p>
-        <p>{new Date(weather.dt * 1000).toLocaleDateString()}</p>
-        <p>{new Date().getTime()}</p>
-        </div>
-    )
+  return <div className="weather-app"></div>;
 }
 
-export default Weather;
+export default WeatherApp;
