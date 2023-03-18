@@ -41,7 +41,14 @@ function WeatherApp() {
     setCity(e.target.elements.city.value);
   };
 
-  return <div className="weather-app"></div>;
+  return (
+    <div className="weather-app">
+      <form onSubmit={handleSubmit}>
+        <input type="text" name="city" placeholder="Enter city name..." />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  );
 }
 
 export default WeatherApp;
