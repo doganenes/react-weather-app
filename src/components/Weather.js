@@ -47,6 +47,23 @@ function WeatherApp() {
         <input type="text" name="city" placeholder="Enter city name..." />
         <button type="submit">Search</button>
       </form>
+      {weatherData.main && (
+        <div className="weather-data">
+          <h1>{weatherData.name}</h1>
+          <img
+            src={`http://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`}
+            alt="City image"
+          />
+          <h2>{weatherData.weather[0].description}</h2>
+          <h2>{weatherData.main.temp}</h2>
+        </div>
+      )}
+      {backgroundImage && (
+        <div
+          className="background-image"
+          style={{ backgroundImage: `url(${backgroundImage})` }}
+        ></div>
+      )}
     </div>
   );
 }
