@@ -42,7 +42,7 @@ function Weather() {
       const response = await axios.get(
         `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${apiKey}`
       );
-      setWeatherForecast(response.data.list.slice(0, 8)); // Sadece ilk 8 veriyi alıyoruz
+      setWeatherForecast(response.data.list.slice(0, 8)); 
     } catch (error) {
       console.log(error);
     }
