@@ -31,7 +31,7 @@ function Weather() {
       const response = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
       );
-      setWeatherData(response.data.list.slice(0, 8));
+      setWeatherData(response.data);
     } catch (error) {
       alert(error);
     }
@@ -42,7 +42,7 @@ function Weather() {
       const response = await axios.get(
         `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${apiKey}`
       );
-      setWeatherForecast(response.data.list.slice(0, 8)); 
+      setWeatherForecast(response.data.list.slice(0, 8));
     } catch (error) {
       console.log(error);
     }

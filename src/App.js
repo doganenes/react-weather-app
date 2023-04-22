@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Weather from "./components/Weather";
 import Popup from "./components/Popup";
 import "./App.css";
+import axios from "axios";
 
 function App() {
   const [city, setCity] = useState("");

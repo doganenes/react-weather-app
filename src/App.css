@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap");
 
 html,
 body,
@@ -8,7 +8,7 @@ body,
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .app {
@@ -22,12 +22,12 @@ body,
   background-size: cover;
 }
 
-.app-title{
-  margin-bottom: 2rem;
+.app-title {
+  margin-bottom: 1.2rem;
   text-align: center;
-  font-family: 'Oswald', Helvetica, sans-serif;
-  font-family: 'Bruno Ace', cursive;
-  letter-spacing: .3rem;
+  font-family: "Oswald", Helvetica, sans-serif;
+  font-family: "Bruno Ace", cursive;
+  letter-spacing: 0.3rem;
 }
 
 .popup {
@@ -106,12 +106,12 @@ img {
   height: auto;
 }
 
-footer{
+footer {
   position: fixed;
   bottom: 0;
-  padding-bottom: .1rem;
+  padding-bottom: 0.1rem;
   font-size: 14px;
-  font-family: 'Oswald', Helvetica, sans-serif;
-  font-family: 'Bruno Ace', cursive;
+  font-family: "Oswald", Helvetica, sans-serif;
+  font-family: "Bruno Ace", cursive;
   letter-spacing: 1px;
 }

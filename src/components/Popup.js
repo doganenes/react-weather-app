@@ -1,16 +1,16 @@
-import "../App.css";
-import React, { useState } from "react";
 import axios from "axios";
+import React, { useState, useEffect } from "react";
 
 function Popup(props) {
   const [city, setCity] = useState("");
   const [weatherData, setWeatherData] = useState({});
   const [showPopup, setShowPopup] = useState(false);
+  const apiKey = process.env.REACT_APP_WEATHER_DATA;
 
   const handleSearch = async (city) => {
     try {
       const response = await axios.get(
-        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=YOUR_API_KEY`
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
       );
       handleWeatherData(response.data);
       setShowPopup(true);
@@ -26,9 +26,10 @@ function Popup(props) {
   const handleWeatherData = (data) => {
     setWeatherData(data);
   };
+
   return (
     <div className="popup">
-      <button className="close-btn" onClick={props.handleClose}>
+      <button className="close-btn" onClick={handleClosePopup}>
         X
       </button>
       <div className="popup-inner">
