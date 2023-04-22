@@ -23,8 +23,12 @@ function App() {
 
   return (
     <div className="app">
-      <Weather onSearch={handleSearch} onData={handleWeatherData} />
-      {showPopup && <Popup onClose={handleClosePopup} data={weatherData} />}
+      <div>
+        <h1 className="app-title text-dark">Weather App</h1>
+        <Weather onSearch={handleSearch} onData={handleWeatherData} />
+        {showPopup && <Popup onClose={handleClosePopup} data={weatherData} />}
+      </div>
+      <footer>Designed by Enes Doğan | &copy; 2023</footer>
     </div>
   );
 }
