@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.result {
+  display: flex;
+  max-height: 10vh;
+  width: 75%;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  width: 50%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  margin-left: 20px;
+}
