@@ -39,7 +39,6 @@ function App() {
           icon={item.day.condition.icon}
         />
       ))}
-      <footer>Designed by Enes Doğan | &copy; 2023</footer>
     </div>
   );
 }

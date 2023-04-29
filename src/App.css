@@ -45,13 +45,3 @@ input,button{
   border-radius: 10px;
   border: none;
 }
-
-footer {
-  position: fixed;
-  bottom: 0;
-  padding-bottom: 0.1rem;
-  font-size: 14px;
-  font-family: "Oswald", Helvetica, sans-serif;
-  font-family: "Bruno Ace", cursive;
-  letter-spacing: .1rem;
-}
