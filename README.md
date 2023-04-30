@@ -1,9 +1,8 @@
-<h1>React Weather App</h1>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/86846812/235345727-8d18f563-56f8-488a-b74f-0cd832513c5c.png" /> 
 </div>
 
-## Quiz App 
+## React Weather App 
 Weather App Project using React.js.
 
 ### Built with
