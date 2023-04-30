@@ -4,9 +4,7 @@
 </div>
 
 ## Quiz App 
-Quiz App Project using HTML5, CSS3, Javascript, and Bootstrap.
-
-Live Preview: [https://doganenes.github.io/quiz-app/](https://doganenes.github.io/quiz-app/)
+Weather App Project using React.js.
 
 ### Built with
 
