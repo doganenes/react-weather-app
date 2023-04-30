@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://user-images.githubusercontent.com/86846812/235345727-8d18f563-56f8-488a-b74f-0cd832513c5c.png" /> 
+<img src="https://user-images.githubusercontent.com/86846812/235352009-6ec920f6-b859-4db2-ad02-667234e21c51.png" /> 
 </div>
 
 # React Weather App 
