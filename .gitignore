@@ -38,3 +38,7 @@ yarn-error.log*
 /.changelog
 .npm/
 * .txt
+.vercel
+
+# Local Netlify folder
+.netlify
