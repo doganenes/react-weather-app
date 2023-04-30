@@ -13,14 +13,15 @@ body,
 
 .app {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   padding-top: 3rem;
   height: 100%;
   background: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
   background-repeat: no-repeat;
   background-size: cover;
-}
+ }
 
 .app-title {
   margin-bottom: .4rem;
@@ -30,12 +31,20 @@ body,
   letter-spacing: 0.3rem;
 }
 
+.app-items{
+  display: flex;
+  flex-direction: column !important;
+  position: absolute;
+  margin-bottom: 30rem;
+}
+
 .search{
   min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 1rem;
+  margin-bottom: 5rem;
 }
 
 input,button{

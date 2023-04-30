@@ -24,10 +24,16 @@ function App() {
 
   return (
     <div className="app">
-      <h1 className="app-title text-dark">Weather App</h1>
-      <div className="search">
-        <input type="text" placeholder="Search a city.." onChange={cityText} />
-        <button onClick={() => getData(cityInput)}>Search</button>
+      <div className="app-items">
+        <h1 className="app-title text-dark">Weather App</h1>
+        <div className="search">
+          <input
+            type="text"
+            placeholder="Search a city.."
+            onChange={cityText}
+          />
+          <button onClick={() => getData(cityInput)}>Search</button>
+        </div>
       </div>
       {weatherData.map((item) => (
         <Weather
