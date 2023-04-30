@@ -17,9 +17,7 @@ Live Preview: [https://doganenes.github.io/quiz-app/](https://doganenes.github.i
 
 ---
 <div align="center">
-<img src="https://user-images.githubusercontent.com/86846812/
-235346003-d783cdbd-7cc0-4dee-bb50-490f174c124f.png" />
-<br/>
+<img src="https://user-images.githubusercontent.com/86846812/235346437-46af0cde-966a-41b7-b7a4-d2320f34f214.png" />
 </div>
 <br/>
 
@@ -28,8 +26,8 @@ Live Preview: [https://doganenes.github.io/quiz-app/](https://doganenes.github.i
 To get a local copy of the code, clone it using git:
 
 ```
-git clone https://github.com/doganenes/quiz-app.git
-cd quiz-app
+git clone https://github.com/doganenes/react-weather-app.git
+cd react-weather-app
 ```
 
 
